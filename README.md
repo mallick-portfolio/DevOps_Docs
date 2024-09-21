@@ -1,13 +1,13 @@
 # DevOps_Docs
 
-এটি একটি রিপোজিটরি যেখানে সিস্টেম ডিজাইন এর মৌলিক জিনিসগুলো নিয়ে আলোচনা করা হয়েছে।
+In this repository i will try to cover all major devops topics specially for begineers.
 
-**আমি সাজেস্ট করবো যখন আমার সব টপিক লেখা হয়ে যাবে তখন আপনারা চাইলে কান্ট্রিবিউটে করবেন**
+**I will suggest to contribute with me after a certain period as well as feel free to feedback**
 
-এই টিউটোরিয়াল এর উদ্দেশ্য আপনাকে মৌলিক জিনিসগুলোর ধারণা দেয়া। ভালো লাগলে star, watch কিংবা fork ক্লিক করে রাখতে পারেন।
+The aim in this documentation is for my personal learning as well as the begineer who want to start devops journey.
 
 <p align="center">
-  <img src="./images/system-design-wallpaper.png" alt="System Design Wallpaper">
+  <img src="./images/devops_loop.jpeg" alt="DevOps Wallpaper">
 </p>
 
 [আপনার যদি এই কনটেন্ট পড়ে ভালো লাগে, আপনি চাইলে আমাকে কফি স্পনসর করতে পারেন, https://www.buymeacoffee.com/lahin31]
