@@ -47,12 +47,13 @@ For more understand
 
 ### Docker Engine Local Setup
 
-<p align="center">
-  <img src="../../images/docker_setup.png" alt="Docker setup">
-</p>
-
 To set up Docker Engine on your local PC, please follow the official Docker installation instructions for your operating system:
 
 - **Ubuntu / Debian / Linux**: [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 - **Windows**: [Install Docker Desktop on Windows](https://docs.docker.com/desktop/install/windows-install/)
 - **macOS**: [Install Docker Desktop on macOS](https://docs.docker.com/desktop/install/mac-install/)
+
+<p align="center">
+  <img src="../../images/docker_setup.png" alt="Docker setup">
+</p>
+
