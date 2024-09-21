@@ -4,13 +4,13 @@ In this repository i will try to cover all major devops topics specially for beg
 
 **I will suggest to contribute with me after a certain period as well as feel free to feedback**
 
-The aim in this documentation is for my personal learning as well as the begineer who want to start devops journey.
+The aim of this documentation is for my personal learning as well as the begineer who want to start devops journey.
 
 <p align="center">
   <img src="./images/devops_loop.jpeg" alt="DevOps Wallpaper">
 </p>
 
-[আপনার যদি এই কনটেন্ট পড়ে ভালো লাগে, আপনি চাইলে আমাকে কফি স্পনসর করতে পারেন, https://www.buymeacoffee.com/lahin31]
+<!-- [আপনার যদি এই কনটেন্ট পড়ে ভালো লাগে, আপনি চাইলে আমাকে কফি স্পনসর করতে পারেন, https://www.buymeacoffee.com/lahin31] -->
 
 ### Index
 
