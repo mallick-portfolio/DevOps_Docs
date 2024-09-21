@@ -9,7 +9,6 @@
 ## Getting started
 
 ### What is Docker?
-
 [Docker](https://docs.docker.com/) is a platform designed to help developers build, share, and run container applications.
 In simple word Docker is a container technology or A tool for creating and managing containers
 
@@ -25,10 +24,10 @@ Now, you want to share your project with a friend who also wants to run it on th
 This is where Docker comes in. With Docker, you can package your application, along with all its dependencies, libraries, and the specific version of Node.js you’re using, into a container. You can then share this container with anyone, and they will be able to run your project without having to manually set up the same environment on their machine. Docker ensures that your software runs the same, regardless of where it's deployed.
 
 ### What is a Virtual Machine (VM)?
+
 A Virtual Machine (VM) is a software-based emulation of a physical computer that runs its own operating system and applications. It behaves like a separate computer, even though it runs on top of an existing host system.
 
-### Docker VS Virtual Machines(Virtual Operating Systems)
-## Docker vs Virtual Machines (VMs) – Brief Summary
+### Docker vs Virtual Machines (VMs) – Brief Summary
 
 | Feature           | Docker                             | Virtual Machines (VMs)                  |
 |-------------------|------------------------------------|-----------------------------------------|
@@ -39,3 +38,21 @@ A Virtual Machine (VM) is a software-based emulation of a physical computer that
 | **Isolation**      | Provides process-level isolation | Stronger isolation by running separate OSes |
 | **Use Cases**      | Best for scalable, cloud-native apps and microservices | Ideal for running multiple OSes or legacy apps |
 
+For more understand
+<p align="center">
+  <img src="../../images/docker_vs_vm.png" alt="Docker vs VMs">
+</p>
+
+
+
+### Docker Engine Local Setup
+
+<p align="center">
+  <img src="../../images/docker_setup.png" alt="Docker setup">
+</p>
+
+To set up Docker Engine on your local PC, please follow the official Docker installation instructions for your operating system:
+
+- **Ubuntu / Debian / Linux**: [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
+- **Windows**: [Install Docker Desktop on Windows](https://docs.docker.com/desktop/install/windows-install/)
+- **macOS**: [Install Docker Desktop on macOS](https://docs.docker.com/desktop/install/mac-install/)
