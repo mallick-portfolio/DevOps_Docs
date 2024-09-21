@@ -10,15 +10,32 @@
 
 ### What is Docker?
 
+[Docker](https://docs.docker.com/) is a platform designed to help developers build, share, and run container applications.
 In simple word Docker is a container technology or A tool for creating and managing containers
 
+<p align="center">
+  <img src="../../images/what_is_docker.png" alt="What is docker">
+</p>
+
 ### Why Dockers?
-If you understand why docker need then we will get the overview of docker.
+Imagine you're developing a Node.js application using version 20.02. On your local machine, everything works perfectly because all the dependencies are compatible with this version of Node.js.
 
-Suppose you are running a node base software with the version 20.02. Your software has multiple dependencies all are working fine
-in your local system. Now you want to share your software with your friend who also want to run your software in his own machine. 
-But your friend local machine has node js version 18.04. He tried to install all the dependencis for this project but he is getting error. Because all the dependencis are not supported in node js verison 18.04. So you told him to install node version 20.02. 
+Now, you want to share your project with a friend who also wants to run it on their computer. However, your friend is using Node.js version 18.04. When they try to install the project's dependencies, they encounter errors because some of the dependencies are not compatible with Node.js 18.04. You suggest that they upgrade to Node.js version 20.02, but this introduces the hassle of setting up the right environment just to get the project running.
 
-In this case every time you need to setup same enviroment to run your software. But if you find anything that will help you to solve this issue like you will give all your code and dependencis and anyone can run your project without setup the same environment then that tool is Docker as well as other tools also available.
+This is where Docker comes in. With Docker, you can package your application, along with all its dependencies, libraries, and the specific version of Node.js you’re using, into a container. You can then share this container with anyone, and they will be able to run your project without having to manually set up the same environment on their machine. Docker ensures that your software runs the same, regardless of where it's deployed.
 
-### How Docker solve this above problem
+### What is a Virtual Machine (VM)?
+A Virtual Machine (VM) is a software-based emulation of a physical computer that runs its own operating system and applications. It behaves like a separate computer, even though it runs on top of an existing host system.
+
+### Docker VS Virtual Machines(Virtual Operating Systems)
+## Docker vs Virtual Machines (VMs) – Brief Summary
+
+| Feature           | Docker                             | Virtual Machines (VMs)                  |
+|-------------------|------------------------------------|-----------------------------------------|
+| **Architecture**   | Containers share the host OS and are lightweight | Each VM runs a full guest OS, making them heavier |
+| **Resource Usage** | Uses fewer resources (CPU, memory, storage) | Requires more resources due to full OS overhead |
+| **Performance**    | Faster startup with minimal overhead | Slower startup and higher overhead |
+| **Portability**    | Highly portable across Docker environments | Portable but more cumbersome with full OS |
+| **Isolation**      | Provides process-level isolation | Stronger isolation by running separate OSes |
+| **Use Cases**      | Best for scalable, cloud-native apps and microservices | Ideal for running multiple OSes or legacy apps |
+
