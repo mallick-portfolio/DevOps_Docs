@@ -10,7 +10,7 @@
 - [Section 5: Work with multi container application ](#section-1-multi-layer)
 
 
-## Getting started
+## Section 1: Getting started
 
 ### What is Docker?
 [Docker](https://docs.docker.com/) is a platform designed to help developers build, share, and run container applications.
@@ -48,7 +48,6 @@ For more understand
 </p>
 
 
-
 ### Docker Engine Local Setup
 
 To set up Docker Engine on your local PC, please follow the official Docker installation instructions for your operating system:
@@ -61,7 +60,9 @@ To set up Docker Engine on your local PC, please follow the official Docker inst
   <img src="../../images/docker_setup.png" alt="Docker setup">
 </p>
 
-## Docker Images and Containers
+
+
+## Section 2: Docker Images and Containers
 
 ### Docker Image: 
 A Docker image is like a blueprint or a template that contains everything your application needs to run, including the application code, libraries, and dependencies. Think of it as a package that has all the necessary components to run your application.
