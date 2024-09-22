@@ -5,9 +5,9 @@
 
 - [Section 1: Getting Started ](#section-1-getting-started)
 - [Section 2: Docker Images and Containers ](#section-2-docker-images-and-containers)
-- [Section 3: Managing Data and Working with Volums ](#section-1-getting-started)
-- [Section 4: Docker Networking ](#section-1-getting-started)
-- [Section 5: Work with multi container application ](#section-1-getting-started)
+- [Section 3: Managing Data and Working with Volums ](#section-1-docker-volume)
+- [Section 4: Docker Networking ](#section-1-docker-networking)
+- [Section 5: Work with multi container application ](#section-1-multi-layer)
 
 
 ## Getting started
