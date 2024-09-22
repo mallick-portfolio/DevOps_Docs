@@ -84,4 +84,22 @@ First we start from already created  Docker image. We can use the official Docke
 </p>
 
 
-I am staring from the most command 
+Search for the image you want to use, and then you can pull it to your local machine. For example, if you want to use the official Python/Node image, you can pull it with the following command. I am  using Node as an example.
+
+### Command to Pull a Docker Image
+
+To pull the official Node.js Docker image to your local machine, use the following command:
+
+```bash
+docker pull node:latest
+```
+This command will download the latest version of the Node.js Docker image to your local machine. It will take few  moment to download the image depending  on your internet speed.
+You will see  the following output:
+
+<p align="center">
+  <img src="../../images/docker/docker_official_image.png" alt="Docker official image pull">
+</p>
+
+
+You don't need to worry about anything what happening here. I will explain everything one by one. 
+
