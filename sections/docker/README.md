@@ -4,7 +4,7 @@
 
 
 - [Section 1: Getting Started ](#section-1-getting-started)
-- [Section 2: Docker Images and Containers ](#section-1-getting-started)
+- [Section 2: Docker Images and Containers ](#section-2-docker-images-and-containers)
 - [Section 3: Managing Data and Working with Volums ](#section-1-getting-started)
 - [Section 4: Docker Networking ](#section-1-getting-started)
 - [Section 5: Work with multi container application ](#section-1-getting-started)
@@ -61,3 +61,26 @@ To set up Docker Engine on your local PC, please follow the official Docker inst
   <img src="../../images/docker_setup.png" alt="Docker setup">
 </p>
 
+## Docker Images and Containers
+
+### Docker Image: 
+A Docker image is like a blueprint or a template that contains everything your application needs to run, including the application code, libraries, and dependencies. Think of it as a package that has all the necessary components to run your application.
+
+### Docker Container: 
+A Docker container is an instance of a Docker image. When you run a Docker container, you're essentially creating a copy of the Docker image. This copy is a self-contained environment where your application runs. Containers are like virtual machines, but much lighter and more efficient.
+
+See the bellow image for more understanding. As well as you will understand more when you start working with Docker.
+
+<p align="center">
+  <img src="../../images/docker_images_containers.png" alt="Docker images and containers">
+</p>
+
+If you already install docker  on your local machine, you can start working with Docker. If not, you can install it.Install guidline (https://docs.docker.com/)
+
+First we start from already created  Docker image. We can use the official Docker images or create our own. For official  Docker images, you can check the Docker Hub (https://hub.docker.com/)
+<p align="center">
+  <img src="../../images/docker_hub.png" alt="Docker hub">
+</p>
+
+
+I am staring from the most command 
